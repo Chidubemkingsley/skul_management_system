@@ -80,7 +80,7 @@ uint256: 1000000000000000000000000
 - SchoolToken:            `0xd9145CCE52D386f254917e481eB44e9943F39138`
 - SchoolManagementSystem: `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
 
-- Go to the deployed SchoolToken contract and call approve with:
+### Go to the deployed SchoolToken contract and call approve with:
 - spender:  `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
 - amount:   `1000000000000000000000000`
 `This allows the school contract to pull tokens from your wallet when students pay fees`
@@ -119,15 +119,15 @@ StudentRegistered Event:
 ```
 
 - Go to SchoolManagementSystem → find registerStaff and fill in:
-name:    "Mr Damilare"
-email:   "adeleke@school.com"
-role:    0
-wallet:  0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
-salary:  50000000000000000000
-Role options:
-0 = Teacher // if registering for a teacher
-1 = Administrator //if registering for an admin
-2 = Support // if register for support
+- name:    "Mr Damilare"
+- email:   "adeleke@school.com"
+- role:    0
+- wallet:  0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+- salary:  50000000000000000000
+## Role options:
+- 0 = Teacher // if registering for a teacher
+- 1 = Administrator //if registering for an admin
+- 2 = Support // if register for support
 Salary breakdown:
 50000000000000000000 = 50 STKN per pay cycle;
 
