@@ -148,7 +148,7 @@ Amount:  500,000 STKN
 + 500,000 STKN (top up)
 = 500,100 STKN total 
 
-- transferAdmin transfers ownership of the school to a new admin address.
+### transferAdmin transfers ownership of the school to a new admin address.
 
 - Go to SchoolManagementSystem → transferAdmin and fill in:
 - newAdmin:  0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
@@ -162,9 +162,9 @@ New admin:      0xAb84...cb2  (gains admin rights)
 Admin transferred successfully! 
 Previous admin:  0x5B38...C4  (no longer admin)
 New admin:       0xAb84...cb2 
-
-Important — Switch your account now to the new Admin
 ```
+### Important — Switch your account now to the new Admin
+
 - To verify the transfer worked, call admin on SchoolManagementSystem — it should return:
 ```
 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2 
