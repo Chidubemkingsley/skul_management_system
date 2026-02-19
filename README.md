@@ -75,7 +75,7 @@ uint256: 1000000000000000000000000
 400000000000000000000
 ```
 
-- Both contracts are deployed successfully! 
+### Both contracts are deployed successfully! 
 
 - SchoolToken:            `0xd9145CCE52D386f254917e481eB44e9943F39138`
 - SchoolManagementSystem: `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
