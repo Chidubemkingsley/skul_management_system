@@ -51,7 +51,7 @@ from (admin):     0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
 tokens minted:    1,000,000,000,000,000,000,000,000 wei = 1,000,000 STKN ✅
 ```
 
-- Click balanceOf In SchoolTOken contract
+- Click balanceOf In SchoolToken contract
 - Paste your wallet address this time:
 ```
 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
@@ -93,8 +93,8 @@ Spender:   0xd8b9...fa8 (SchoolManagementSystem) ✅
 - Register a Student:
 - On SchoolManagementSystem → registerStudent:
 name:    "Chidubem"
-email:   "chidubem@school.com"
-level:   0           (0=Level100, 1=Level200, 2=Level300, 3=Level400)
+email:   "chidubem@gmail.com"
+level:   0 (0=Level100, 1=Level200, 2=Level300, 3=Level400)
 wallet:  `0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`
 payNow:  true
 ```
@@ -139,7 +139,7 @@ newFee:  100000000000000000000
 to:      `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
 amount:  `500000000000000000000000`
 
-- Treasury balance(SchoolManagementSystem topped up successfully! 
+- Treasury balance(SchoolManagementSystem topped up successfully!) 
 From:    0x5B38...C4  (your wallet)
 To:      0xd8b9...fa8 (school treasury)
 Amount:  500,000 STKN ✅
