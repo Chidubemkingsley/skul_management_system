@@ -45,10 +45,10 @@ _mint(msg.sender, initialSupply * 10 ** decimals);
 - In the Deploy input box next to the button → type 1000000
 - Click Deploy
 ```
-status:           ✅ Transaction mined and execution succeed
+status:            Transaction mined and execution succeed
 contract address: 0xd9145CCE52D386f254917e481eB44e9943F39138
 from (admin):     0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
-tokens minted:    1,000,000,000,000,000,000,000,000 wei = 1,000,000 STKN ✅
+tokens minted:    1,000,000,000,000,000,000,000,000 wei = 1,000,000 STKN 
 ```
 
 - Click balanceOf In SchoolToken contract
@@ -77,17 +77,17 @@ uint256: 1000000000000000000000000
 
 - Both contracts are deployed successfully! 
 
-- SchoolToken:            `0xd9145CCE52D386f254917e481eB44e9943F39138 ✅`
-- SchoolManagementSystem: `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8 ✅`
+- SchoolToken:            `0xd9145CCE52D386f254917e481eB44e9943F39138`
+- SchoolManagementSystem: `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
 
 - Go to the deployed SchoolToken contract and call approve with:
 - spender:  `0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8`
 - amount:   `1000000000000000000000000`
 `This allows the school contract to pull tokens from your wallet when students pay fees`
 ```
-Approved:  1,000,000 STKN ✅
+Approved:  1,000,000 STKN 
 Owner:     0x5B38...C4  (your wallet)
-Spender:   0xd8b9...fa8 (SchoolManagementSystem) ✅
+Spender:   0xd8b9...fa8 (SchoolManagementSystem) 
 ```
 - After that approval you can start using the system:
 - Register a Student:
@@ -98,24 +98,24 @@ level:   0 (0=Level100, 1=Level200, 2=Level300, 3=Level400)
 wallet:  `0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`
 payNow:  true
 ```
-studentId:        1 ✅
-Name:             Chidubem ✅
-Level:            100 ✅
-Wallet:           0x5B38...C4 ✅
+studentId:        1 
+Name:             Chidubem 
+Level:            100 
+Wallet:           0x5B38...C4 
 
 Transfer Event:
   From:   0x5B38...C4  (your wallet)
   To:     0xd8b9...fa8 (school treasury)
-  Amount: 100 STKN ✅
+  Amount: 100 STKN 
 
 TuitionPaid Event:
-  studentId:  1 ✅
-  Amount:     100 STKN ✅
-  Timestamp:  1771476914 ✅
+  studentId:  1 
+  Amount:     100 STKN 
+  Timestamp:  1771476914 
 
 StudentRegistered Event:
-  studentId:  1 ✅
-  Name:       Chidubem ✅
+  studentId:  1 
+  Name:       Chidubem 
 ```
 
 - Go to SchoolManagementSystem → find registerStaff and fill in:
@@ -142,11 +142,11 @@ amount:  `500000000000000000000000`
 - Treasury balance(SchoolManagementSystem topped up successfully!) 
 From:    0x5B38...C4  (your wallet)
 To:      0xd8b9...fa8 (school treasury)
-Amount:  500,000 STKN ✅
+Amount:  500,000 STKN 
 - Treasury balance is now:
  100 STKN    (from John's tuition)
 + 500,000 STKN (top up)
-= 500,100 STKN total ✅
+= 500,100 STKN total 
 
 - transferAdmin transfers ownership of the school to a new admin address.
 
@@ -159,14 +159,14 @@ Current admin:  0x5B38...C4   (loses admin rights)
 New admin:      0xAb84...cb2  (gains admin rights)
 
 ```
-Admin transferred successfully! ✅
+Admin transferred successfully! 
 Previous admin:  0x5B38...C4  (no longer admin)
-New admin:       0xAb84...cb2 ✅
+New admin:       0xAb84...cb2 
 
 Important — Switch your account now to the new Admin
 ```
 - To verify the transfer worked, call admin on SchoolManagementSystem — it should return:
 ```
-0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2 ✅
+0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2 
 ```
 
