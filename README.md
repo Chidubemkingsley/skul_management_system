@@ -12,7 +12,7 @@ Create a School management system where people can:
 * Payment status can be updated once the payment is made which should include the timestamp.
 ```
 
-- BREAKDOWN
+## BREAKDOWN
 - With transfer, transferFrom, approve, allowance, and an owner-gated mint function. The school uses this token as its internal currency.
 
 ```
@@ -28,7 +28,7 @@ ID, name, email, level (100–400), wallet, PaymentStatus (Unpaid/Paid), payment
 ID, name, email, StaffRole (Teacher/Administrator/Support), wallet, salary, lastPaidAt, and registeredAt.
 ```
 
-# WORKTHROUGH
+## WORKTHROUGH WITH REMIX IDE.
 
 
 When deploying SchoolToken, the initialSupply parameter is just the whole number of tokens you want — the contract handles multiplying by 10**18 internally.
