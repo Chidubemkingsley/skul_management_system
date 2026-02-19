@@ -51,7 +51,7 @@ from (admin):     0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
 tokens minted:    1,000,000,000,000,000,000,000,000 wei = 1,000,000 STKN 
 ```
 
-- Click balanceOf In SchoolToken contract
+### Click balanceOf In SchoolToken contract
 - Paste your wallet address this time:
 ```
 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
