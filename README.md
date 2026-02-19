@@ -89,14 +89,14 @@ Approved:  1,000,000 STKN
 Owner:     0x5B38...C4  (your wallet)
 Spender:   0xd8b9...fa8 (SchoolManagementSystem) 
 ```
-- After that approval you can start using the system:
-- Register a Student:
+### After that approval you can start using the system:
+#### Register a Student:
 - On SchoolManagementSystem → registerStudent:
-name:    "Chidubem"
-email:   "chidubem@gmail.com"
-level:   0 (0=Level100, 1=Level200, 2=Level300, 3=Level400)
-wallet:  `0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`
-payNow:  true
+- name:    "Chidubem"
+- email:   "chidubem@gmail.com"
+- level:   0 (0=Level100, 1=Level200, 2=Level300, 3=Level400)
+- wallet:  `0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`
+- payNow:  true
 ```
 studentId:        1 
 Name:             Chidubem 
